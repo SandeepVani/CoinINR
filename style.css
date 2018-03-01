@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 18px;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #dd9432;
+    text-align: center;
+    padding: 8px 13px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #8a7750;
+    border-bottom: 2px solid;
+}
+body{background-color: #fbfdfc;}
+.section-2{padding: 30px;}
+.text-center{text-align: center;}
+.part1{min-height:400px; background-color:#dd943287}
+.part3{min-height:100px; background-color:#dd943287; padding:15px; text-align:center;color:white;line-height: 2}
+.background-img{
+  background-image: url('image/nature.jpg');
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.section-4{padding: 40px;}
+.t-clr{color:#ada7a7;}
+.btn-link{
+background-color: #dd9432;
+    color: white;
+    padding: 14px;
+  }
+.btn-link:hover{
+  background-color: #e7a85a;
+}
+.icon-right{color:#dd9432;float:right;}
+.icon-left{color:#dd9432;float:left;}
+p{color:#dd9432;line-height: 26px;}
+.text-clr{color:#dd9432;}
+.left-text{color: black;background-color: white;min-height: 300px;text-align: center;padding: 31px;}
+.set1{margin:50px;padding: 10px;}
+.right-text{color: black;text-align: center;padding: 91px;}
+.set2{margin:50px;padding: 10px;}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.header{
+  min-height: 70px;
+  background-color: #fbfdfc;
+  color:white;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+.logo{padding: 25px;}
+body{
+  margin: 0;
+  padding: 0;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.right{margin: 0px;padding: 0px;float:right;}
+.left{margin: 0px;padding: 0px;float:left;}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
